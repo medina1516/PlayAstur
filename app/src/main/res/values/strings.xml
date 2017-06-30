@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PlayAstur</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="ejemploTextview">Nombre de la playa</string>
+    <string name="ejemploDireccionTextview">Direccion de la playa</string>
+    <string name="ejemploDescripcionNoDisponible">Descripcion no disponible</string>
+    <string name="action_search">Buscar</string>
+</resources>

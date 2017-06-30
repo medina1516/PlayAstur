@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="61dp"
+        android:layout_height="69dp"
+
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_action_name" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:paddingRight="5dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/ejemploTextview"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/direccionTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/ejemploDireccionTextview"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
